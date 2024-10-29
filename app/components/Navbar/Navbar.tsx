@@ -1,5 +1,5 @@
-
 import {FaBars, FaTimes} from "react-icons/fa";
+
 
 export default function Navbar () {
    return (
