@@ -1,0 +1,42 @@
+.new-cars {
+    text-align: center;
+    padding: 0px;
+  }
+  
+  .new-cars h1 {
+    font-size: 36px;
+    margin-bottom: 0px;
+  }
+  
+  .new-cars img {
+    max-width: 30%;
+    height: 0%;
+    margin-bottom: 0px;
+  }
+  
+  .new-cars p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .new-cars .price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .new-cars .price p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .new-cars button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
