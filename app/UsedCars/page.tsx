@@ -1,5 +1,4 @@
 import Navbar from "../components/Navbar/Navbar"
-import Link from "next/link";
 import React from 'react';
 import './UsedCars.css';
 import Footer from "../components/Footer/Footer";

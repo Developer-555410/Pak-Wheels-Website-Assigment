@@ -1,6 +1,5 @@
-import { useState } from "react";
-import Link from "next/link";
-// import {FaBars, FaTimes} from "react-icons/fa";
+
+import {FaBars, FaTimes} from "react-icons/fa";
 
 export default function Navbar () {
    return (
@@ -14,11 +13,11 @@ export default function Navbar () {
         <a href="/AutoStore">Auto Store</a>
         <a href="/Form">Book Now</a>
         <button className="nav-btn nav-close-btn">
-          {/* <FaTimes/> */}
+          <FaTimes/>
         </button>
       </nav>    
       <button className="nav-btn">
-          {/* <FaBars /> */}
+          <FaBars />
       </button>
     </header>
   );

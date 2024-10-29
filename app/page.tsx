@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
+
 import Navbar from "./components/Navbar/Navbar";
 import HeroSection from './components/HeroSection/Hero'
 import FeaturedCars from './components/Featuring/Featuring';

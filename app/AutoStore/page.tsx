@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Navbar from "../components/Navbar/Navbar"
 import React from 'react';
 import './AutoStore.css';
