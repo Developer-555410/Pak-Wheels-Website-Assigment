@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar/Navbar"
 import React from 'react';
 import './AutoStore.css';
 import Footer from "../components/Footer/Footer";
+import Image from "next/image";
 
 const AutoStore = () => {
   return (
@@ -15,15 +16,15 @@ const AutoStore = () => {
     <div className="AutoStore">
       <h1>Auto Store</h1>
       <li>Honda Civic</li>
-      <img src="/Civic.png" alt="Honda Civic" />
+      <Image src="/Civic.png" alt="Honda Civic" height={100} width={400} />
       <li>Toyota Corolla</li>
-      <img src="/Corolla.jpeg" alt="Toyota Corolla" />
+      <Image src="/Corolla.jpeg" alt="Toyota Corolla" height={100} width={400} />
       <li>Honda City</li>
-      <img src="/City.png" alt="Honda City" />
+      <Image src="/City.png" alt="Honda City" height={100} width={400} />
       <li>Toyota Prius</li>
-      <img src="/Prius.jpeg" alt="Toyota Prius" />
+      <Image src="/Prius.jpeg" alt="Toyota Prius" height={100} width={400} />
       <li>Honda CG-125</li>
-      <img src="/CG-125.jpg" alt="Honda CG-125" />
+      <Image src="/CG-125.jpg" alt="Honda CG-125" height={100} width={400} />
        
     </div>
     <Footer/> 

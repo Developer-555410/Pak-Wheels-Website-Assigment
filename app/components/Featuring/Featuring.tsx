@@ -1,5 +1,6 @@
 import React from 'react';
 import './Featuring.css';
+import Image from 'next/image';
 
 const FeaturedCars = () => {
   const cars = [
@@ -43,7 +44,7 @@ const FeaturedCars = () => {
       <div className="car-slider">
         {cars.map((car, index) => (
           <div className="car-card" key={index}>
-            <img src={car.image} alt={car.name} />
+            <Image src={car.image} alt={car.name} height={100} width={100} />
             <h3>{car.name}</h3>
             <p>{car.price}</p>
             <p>{car.rating} {car.reviews}</p>
