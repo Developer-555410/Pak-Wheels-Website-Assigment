@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from 'next/link';
 import {FaBars, FaTimes} from "react-icons/fa";
+{/* eslint-disable react/no-unescaped-entities */}
 
 
 export default function Navbar () {
