@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link';
 import {FaBars, FaTimes} from "react-icons/fa";
 
 
@@ -7,7 +8,7 @@ export default function Navbar () {
     <header>
       <Image src="/logo.png" alt="Logo" height={40} width={220} />
         <nav>
-        <a href="/#">Home</a>  
+        <Link href="/">Home</Link>  
         <a href="/UsedCars">Used Cars</a>
         <a href="/NewCars">New Cars</a>
         <a href="/Bike">Bikes</a>

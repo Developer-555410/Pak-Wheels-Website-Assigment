@@ -14,7 +14,7 @@ const UsedCar = () => {
       <Image src="/corolla.png" alt="Toyota Corolla 2021" height={400} width={400} />
       <p>
       Toyota Corolla 2021 offers a blend of reliability, fuel efficiency, and comfortable driving experience.
-      It's known for its spacious interior, advanced safety features, and smooth handling, making it a popular choice for daily commuting and family outings. </p>
+      It&rsquo;s known for its spacious interior, advanced safety features, and smooth handling, making it a popular choice for daily commuting and family outings. </p>
       <div className="price">
         <p>PKR 4,000,000</p>
         <div className="button-row">
