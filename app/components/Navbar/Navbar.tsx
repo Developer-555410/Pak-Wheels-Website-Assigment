@@ -10,11 +10,11 @@ export default function Navbar () {
       <Image src="/logo.png" alt="Logo" height={40} width={220} />
         <nav>
         <Link href="/">Home</Link>  
-        <a href="/UsedCars">Used Cars</a>
-        <a href="/NewCars">New Cars</a>
-        <a href="/Bike">Bikes</a>
-        <a href="/AutoStore">Auto Store</a>
-        <a href="/Form">Book Now</a>
+        <Link href="/UsedCars">Used Cars</Link>
+        <Link href="/NewCars">New Cars</Link>
+        <Link href="/Bike">Bikes</Link>
+        <Link href="/AutoStore">Auto Store</Link>
+        <Link href="/Form">Book Now</Link>
         <button className="nav-btn nav-close-btn">
           <FaTimes/>
         </button>

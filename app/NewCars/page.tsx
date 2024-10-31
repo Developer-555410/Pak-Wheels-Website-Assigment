@@ -16,7 +16,7 @@ const NewCars = () => {
       <Image src="/civic.png" alt="Honda Civic 2024" height={400} width={400} />
       <p>
       Honda Civic 2024 offers a blend of reliability, fuel efficiency, and comfortable driving experience.
-      It&rsquo;s a car known for its spacious interior, advanced safety features, and smooth handling, making it a popular choice for daily commuting and family outings
+      <b>It&rsquo;s a car</b> known for its spacious interior, advanced safety features, and smooth handling, making it a popular choice for daily commuting and family outings
  </p>
       <div className="price">
         <p>PKR 98,000,000</p>
