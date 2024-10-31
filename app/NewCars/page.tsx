@@ -14,9 +14,10 @@ const NewCars = () => {
      <div className="new-cars">
       <h1>Honda Civic 2024 Price in Pakistan, Images, Reviews & Specs</h1>
       <Image src="/civic.png" alt="Honda Civic 2024" height={400} width={400} />
+      <div>
       <p>
-      Honda Civic 2024 offers a blend of reliability, fuel efficiency, and comfortable driving experience,It a car known for its spacious interior, advanced safety features, and smooth handling, making it a popular choice for daily commuting and family outings   
- </p>
+      Honda Civic 2024 offers a blend of reliability, fuel efficiency, and comfortable driving experience, <div>It&#39;s a car</div> known for its spacious interior, advanced safety features, and smooth handling, making it a popular choice for daily commuting and family outings</p>
+      </div>
       <div className="price">
         <p>PKR 98,000,000</p>
         <div className="button-row">
